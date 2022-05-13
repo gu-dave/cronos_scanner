@@ -2,7 +2,10 @@
 
 Cronos Chain Scanner
 
-API: https://cronos-testnet-3.crypto.org:8545/
+```
+TestNet API: https://api-testnet.cronoscan.com/
+MainNet API: https://api.cronoscan.com/
+```
 
 ## Installation
 
@@ -25,7 +28,7 @@ Or install it yourself as:
 ```ruby
 # set your net first
 
-CronosScanner.net = 'testnet3' or CronosScanner.net = 'main' (default)
+CronosScanner.net = 'testnet' or CronosScanner.net = 'main' (default)
 CronosScanner.apikey = 'apikey'
 ```
 

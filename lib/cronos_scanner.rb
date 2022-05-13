@@ -19,9 +19,9 @@ module CronosScanner
     def domain
       case @net
       when 'main'
-        'https://api.cronoscan.com/'
+        'https://api.cronoscan.com/api'
       when 'testnet'
-        'https://api-testnet.cronoscan.com/'
+        'https://api-testnet.cronoscan.com/api'
       else
         raise 'error net, only testnet and main'
       end
