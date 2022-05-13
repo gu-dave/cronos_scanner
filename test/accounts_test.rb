@@ -3,7 +3,7 @@ require_relative './test_helper'
 class ScannersTest < Minitest::Test
   def setup
     CronosScanner.net = 'testnet'
-    CronosScanner.apikey = 'JKXG4S4I4B4TEZKWAWXEQKQ3T9PRK9N26K'
+    CronosScanner.apikey = ''
     @deposit_address = '0x64D650aa6DbB60a3F91a34C336ffFE5F697D1794'
     
     sleep 0.5
