@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dave.gu@crypto.com"]
 
   spec.summary       = "A Ruby Gem For Cronos Chain"
-  spec.description   = "An unofficial simple gem For Cronos Chain Explorer API"
+  spec.description   = "An unofficial simple gem For https://cronoscan.com/"
   spec.homepage      = 'https://github.com/gu-dave/cronos_scanner'
   spec.required_ruby_version = ">= 2.4.0"
 
